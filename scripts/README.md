@@ -35,3 +35,4 @@ Kịch bản được viết theo format Markdown với cấu trúc:
 - Format rõ ràng, dễ đọc để AI có thể parse chính xác
 - Cập nhật thông tin định kỳ để đảm bảo tính chính xác
 
+
