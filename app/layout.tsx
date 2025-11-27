@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Chatbot AI VBI",
-  description: "Chatbot AI tư vấn bảo hiểm VBI",
+  title: "Tool AI",
+  description: "Tool AI",
 };
 
 export default function RootLayout({
