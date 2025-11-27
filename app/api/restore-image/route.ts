@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
     // Kiểm tra API key
     // CẢNH BÁO: Không nên hardcode API token trong code
     // Nên dùng environment variable: REPLICATE_API_TOKEN trong .env.local
-    const apiToken = process.env.REPLICATE_API_TOKEN || 'r8_4Nvy4IKMuwEzqveiqseVfZQ2751m6r74EJbmu';
+    const apiToken = process.env.REPLICATE_API_TOKEN || 'r8_MMLdpVjJ2MUe6KpL6FPiLBRSey90GOn2i6aCP';
     if (!apiToken) {
       return NextResponse.json(
         {

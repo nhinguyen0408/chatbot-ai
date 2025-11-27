@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Option 1: Sử dụng Replicate API
-    const replicateApiKey = process.env.REPLICATE_API_TOKEN || 'r8_4Nvy4IKMuwEzqveiqseVfZQ2751m6r74EJbmu';
+    const replicateApiKey = process.env.REPLICATE_API_TOKEN || 'r8_MMLdpVjJ2MUe6KpL6FPiLBRSey90GOn2i6aCP';
     
     if (!replicateApiKey) {
       return NextResponse.json(
